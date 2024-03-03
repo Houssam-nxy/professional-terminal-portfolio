@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const closeButton = document.querySelector('.close-button');
 
     // Initialize the prompt
-    const prompt = 'visitor@terminal.houssam.com:~$';
+    const prompt = 'visitor@terminal.your_username.com:~$';
 
     // Welcome message
     // outputElement.textContent += "Terminal-Portfolio\n";
@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const commands = [
             { command: 'help', response: 'Available commands: help, name, about, contact, clear, echo, education, email, gui, history, projects, pwd, socials, themes, welcome, whoami' },
             { command: 'about', response: 'This is a simple terminal portfolio.' },
-            { command: 'contact', response: 'You can contact me at example@email.com.' },
+            { command: 'contact', response: 'You can contact me at houssamelkhesassi@gmail.com.' },
             { command: 'clear', response: 'Clears the terminal screen.' },
             { command: 'echo', response: 'Prints out anything you enter.' },
             { command: 'education', response: 'Displays my education background.' },
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
             { command: 'pwd', response: '/home/visitor' },
             { command: 'socials', response: 'Check out my social accounts.' },
             { command: 'whoami', response: 'visitor' },
-            { command: 'name', response: 'Say hi to Mr.Houssam El Khesassi.' },
+            { command: 'name', response: 'Say hi to Mr.Houssam El ???????.' },
         ];
 
         // Search for the command in the commands array
